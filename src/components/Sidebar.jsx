@@ -15,7 +15,7 @@ export default function Sidebar({ children }) {
             <aside className="h-screen ">
                 <nav className=" h-full flex flex-col bg-white boreder-r shadow-sm">
                     <div className=" p-4 pb-2 flex justify-between items-center">
-                        <img src={logo} className={`overflow-hidden transition-all ${expanded ? "w-32" : "w-0"}`} />
+                        <img src={logo} className={`overflow-hidden transition-all ${expanded ? "w-35 h-12" : "w-0"}`} />
                         <button onClick={() => setExpanded((curr) => !curr)} className=" p01.5 rounded-lg bg-gray-50 hover:bg-green-400" >
                             {expanded ? <ChevronFirst /> : <ChevronLast />}
 
